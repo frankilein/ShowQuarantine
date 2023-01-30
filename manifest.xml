@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>b9ad1741-d198-4a29-b3c3-66538a59a2c9</Id>
-  <Version>3.0.1.0</Version>
+  <Version>4.0.0.0</Version>
   <ProviderName>SE IT IN CCS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Show Quarantine"/>
@@ -9,6 +9,11 @@
   <IconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://security.microsoft.com/quarantine"/>
+  <AppDomains>
+    <AppDomain>https://security.microsoft.com/quarantine</AppDomain>
+    <AppDomain>https://siemens-energy.com</AppDomain>
+    <AppDomain>https://frankilein.github.io/ShowQuarantine</AppDomain>
+  </AppDomains>
   <Hosts>
     <Host Name="Mailbox" />
   </Hosts>
