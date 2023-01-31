@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>b9ad1741-d198-4a29-b3c3-66538a59a2c9</Id>
-  <Version>4.0.0.4</Version>
+  <Version>4.0.0.5</Version>
   <ProviderName>SE IT IN CCS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Show Quarantine"/>
@@ -27,7 +27,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://frankilein.github.io/ShowQuarantine/command.html"/>
+        <SourceLocation DefaultValue="https://security.microsoft.com/quarantine"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
