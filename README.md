@@ -12,7 +12,8 @@ MS manifest.xml supports the following xsi-types only:
 MessageReadCommandSurface                                                        
 MessageComposeCommandSurface                                                     
 AppointmentOrganizerCommandSurface                                            
-AppointmentAttendeeCommandSurface Module (only in DesktopFormFactor)              
+AppointmentAttendeeCommandSurface                                                 
+Module (only in DesktopFormFactor)                                              
 MobileMessageReadCommandSurface                                                 
 MobileOnlineMeetingCommandSurface                                               
 MobileLogEventAppointmentAttendee                                              
