@@ -8,18 +8,18 @@ Got the idea and most of the code from here: https://blog.expta.com/2021/10/how-
 
 Unfortunately this isn't working in my case in folders with preview pane off.
 
-MS manifest.xml supports the following xsi-types only:
-MessageReadCommandSurface
-MessageComposeCommandSurface
-AppointmentOrganizerCommandSurface
-AppointmentAttendeeCommandSurface Module (only in DesktopFormFactor)
-MobileMessageReadCommandSurface
-MobileOnlineMeetingCommandSurface
-MobileLogEventAppointmentAttendee
-LaunchEvent
-Events
-DetectedEntity
+MS manifest.xml supports the following xsi-types only:                                
+MessageReadCommandSurface                                                        
+MessageComposeCommandSurface                                                     
+AppointmentOrganizerCommandSurface                                            
+AppointmentAttendeeCommandSurface Module (only in DesktopFormFactor)              
+MobileMessageReadCommandSurface                                                 
+MobileOnlineMeetingCommandSurface                                               
+MobileLogEventAppointmentAttendee                                              
+LaunchEvent                                                                   
+Events                                                                       
+DetectedEntity                                                                 
 
-None of them unfortunately allows add-in execution in home window.
+None of them unfortunately allows add-in execution in home window.              
 
 Add-in not (yet) visible in OWA. Desktop client not updating from ExO.
