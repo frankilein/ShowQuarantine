@@ -45,7 +45,7 @@
           <FunctionFile resid="Command.Url"/>
           <ExtensionPoint xsi:type="Module">
             <OfficeTab id="TabDefault">
-              <Group id="Home">
+              <Group id="Add-ins">
                 <Label resid="GroupLabel"/>
                 <Control xsi:type="Button" id="ActionButton">
                   <Label resid="ActionButton.Label"/>
