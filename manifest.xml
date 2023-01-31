@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>b9ad1741-d198-4a29-b3c3-66538a59a2c9</Id>
-  <Version>4.0.0.6</Version>
+  <Version>4.0.0.7</Version>
   <ProviderName>SE IT IN CCS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Show Quarantine"/>
@@ -43,9 +43,9 @@
       <Host xsi:type="MailHost">
         <DesktopFormFactor>
           <FunctionFile resid="Command.Url"/>
-          <ExtensionPoint xsi:type="Module">
+          <ExtensionPoint xsi:type="MessageReadCommandSurface">
             <OfficeTab id="TabDefault">
-              <Group id="Add-ins">
+              <Group id="msgReadGroup">
                 <Label resid="GroupLabel"/>
                 <Control xsi:type="Button" id="ActionButton">
                   <Label resid="ActionButton.Label"/>
@@ -65,6 +65,32 @@
               </Group>
             </OfficeTab>
           </ExtensionPoint>
+	  <ExtensionPoint xsi:type="Module">
+              <SourceLocation resid="Command.Url" />
+              <Label resid="GroupLabel"/>
+                <CommandSurface>
+                <CustomTab id="Add-ins">
+                  <Group id="Add-in">
+                    <Label resid="GroupLabel" />
+                    <Control xsi:type="Button" id="ActionButton">
+                      <Label resid="ActionButton.Label" />
+                      <Supertip>
+                        <Title resid="ActionButton.Label" />
+                        <Description resid="ActionButton.Tooltip" />
+                      </Supertip>
+                      <Icon>
+                        <bt:Image size="16" resid="Icon.16x16"/>
+                        <bt:Image size="32" resid="Icon.32x32"/>
+                        <bt:Image size="80" resid="Icon.80x80"/>
+                      </Icon>
+                      <Action xsi:type="ExecuteFunction">
+                        <FunctionName>action</FunctionName>
+                      </Action>
+                    </Control>
+                 </Group>
+                </CustomTab>
+              </CommandSurface>
+          </ExtensionPoint>	
         </DesktopFormFactor>
       </Host>
     </Hosts>
