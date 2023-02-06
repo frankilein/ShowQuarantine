@@ -5,7 +5,7 @@
   <ProviderName>SE IT IN CCS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Show Quarantine"/>
-  <Description DefaultValue="Click the add-in to show the Exchange online quarantine folder in a browser."/>
+  <Description DefaultValue="Click the add-in to show your Exchange online quarantine folder in a browser."/>
   <IconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://security.microsoft.com/quarantine"/>
@@ -82,7 +82,7 @@
         <bt:String id="ActionButton.Label" DefaultValue="Show Quarantine"/>
 	  </bt:ShortStrings>
       <bt:LongStrings>
-		  <bt:String id="ActionButton.Tooltip" DefaultValue="Opens the Exchange online quarantine folder in a browser window."/>
+		  <bt:String id="ActionButton.Tooltip" DefaultValue="Opens your Exchange online quarantine folder in a browser."/>
 	  </bt:LongStrings>
     </Resources>
   </VersionOverrides>
