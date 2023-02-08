@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
   <Id>b9ad1741-d198-4a29-b3c3-66538a59a2c9</Id>
-  <Version>4.0.0.9</Version>
+  <Version>4.0.1.0</Version>
   <ProviderName>SE IT IN CCS</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Show Quarantine"/>
-  <Description DefaultValue="Click the add-in to show your Exchange online quarantine folder in a browser."/>
+  <Description DefaultValue="Click the add-in to show your quarantine folder in a web browser."/>
   <IconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://frankilein.github.io/ShowQuarantine/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://security.microsoft.com/quarantine"/>
@@ -82,7 +82,7 @@
         <bt:String id="ActionButton.Label" DefaultValue="Show Quarantine"/>
 	  </bt:ShortStrings>
       <bt:LongStrings>
-		  <bt:String id="ActionButton.Tooltip" DefaultValue="Opens your Exchange online quarantine folder in a browser."/>
+		  <bt:String id="ActionButton.Tooltip" DefaultValue="Opens your quarantine folder in a web browser."/>
 	  </bt:LongStrings>
     </Resources>
   </VersionOverrides>
